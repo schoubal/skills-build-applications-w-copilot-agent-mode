@@ -1,0 +1,121 @@
+.App {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(14, 165, 233, 0.18), transparent 35%),
+    linear-gradient(180deg, #0f172a 0%, #1e293b 45%, #e2e8f0 100%);
+  color: #f8fafc;
+}
+
+body {
+  background-color: transparent;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.navbar-brand {
+  color: #0f172a !important;
+}
+
+.navbar-nav .nav-link {
+  color: #334155;
+  margin-right: 0.75rem;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0f172a;
+  transform: translateY(-1px);
+}
+
+.navbar-nav .nav-link.active {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.tracker-card {
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.tracker-heading {
+  color: #0f172a;
+}
+
+.tracker-text {
+  color: #334155;
+}
+
+.card {
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.card-header {
+  background: rgba(247, 250, 252, 0.9);
+}
+
+.table {
+  background: #ffffff;
+}
+
+.table th {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.table td {
+  color: #334155;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.btn-outline-secondary {
+  color: #475569;
+  border-color: #cbd5e1;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: rgba(37, 99, 235, 0.08);
+  border-color: #94a3b8;
+}
+
+a.link-primary {
+  color: #2563eb;
+}
+
+a.link-primary:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.app-logo-sm {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+}
+
+.modal-backdrop.show,
+.modal-backdrop.fade.show {
+  opacity: 0.45;
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+.code-link {
+  word-break: break-all;
+}
